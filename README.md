@@ -10,8 +10,8 @@ one A4988-driven stepper and one 60 kg·cm servo.
 
 | Nano | Goes to |
 |---|---|
-| D3 | A4988 STEP |
-| D4 | A4988 DIR |
+| D3 | A4988 DIR |
+| D4 | A4988 STEP |
 | D5 | A4988 EN (active LOW) |
 | D9 | Servo signal |
 | 5V | A4988 VDD, RESET, SLEEP |

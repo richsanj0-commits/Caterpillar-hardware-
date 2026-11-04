@@ -32,8 +32,8 @@
 
 | Arduino Nano | A4988 Driver |
 |---|---|
-| D3 | STEP |
-| D4 | DIR |
+| D3 | DIR |
+| D4 | STEP |
 | D5 | EN |
 | 5V | VDD |
 | 5V | RESET |

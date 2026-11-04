@@ -7,8 +7,8 @@
 // ---- A4988 stepper driver --------------------------------------------------
 // MS1/MS2/MS3 unconnected -> full-step mode.
 // RESET and SLEEP tied to 5V (driver always awake).
-constexpr uint8_t PIN_STEPPER_STEP = 3;   // D3 -> A4988 STEP
-constexpr uint8_t PIN_STEPPER_DIR  = 4;   // D4 -> A4988 DIR
+constexpr uint8_t PIN_STEPPER_STEP = 4;   // D4 -> A4988 STEP
+constexpr uint8_t PIN_STEPPER_DIR  = 3;   // D3 -> A4988 DIR
 constexpr uint8_t PIN_STEPPER_EN   = 5;   // D5 -> A4988 EN (active LOW)
 
 constexpr uint8_t STEPPER_ENABLE_LEVEL  = LOW;
